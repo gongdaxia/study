@@ -1,0 +1,178 @@
+li{list-style-type: none;}
+.wrap{
+	
+}
+body{
+	margin: 0 auto;
+	padding: 0;
+	max-width: 720px;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+}
+.header{
+	width: 100%;
+	max-width: 720px;
+	position: fixed;
+	background-color: #5fc0cd;
+	text-align: center;
+	font-size: 0;
+	padding: 1% 0;
+}
+.chess{
+	margin-left: 4.5%;
+	display: inline;
+
+}
+.master{
+	width: 19.7%;
+	font-size: 2rem;
+	padding: 2% 0;
+	border-radius: 10px;
+	z-index: 1;
+	background-color: #55a8b3;
+	display: inline-block;
+	text-decoration: none;
+	left: 4.5%;
+}
+a:hover{
+	background-color: white;
+	color:  #55a8b3;
+}
+.weizhi{
+	width: 5%;
+	height: auto;
+	float: right;
+	margin-right: 4.5%;
+	margin-top: 2.5%;
+}
+.content{
+	width: 100%;
+	padding-top: 15.6%;
+	}
+.tatal{
+	list-style-type: none;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	
+}
+.firstList{
+	font-size: 2rem;
+	vertical-align: middle;
+	border-bottom: 1px solid gray;
+	text-align: center;
+
+}
+.img1{
+	width: 10%;
+	padding-left: 8%;
+	margin-left: 15%;
+	
+}
+.taskber{
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+	border-right: 1px solid gray;
+	padding: 2% 0;
+}
+.line{
+	border-right: none;
+}
+.secondList{
+	border-bottom: 1px solid gray;
+	width: 100%;
+	display: inline-block;
+	padding: 2.5% 0;
+}
+.gray{
+	font-size: 2rem;
+	color: gray;
+	padding: 1% 0;
+}
+.data{
+	width: 5%;
+	padding-right: 2%;
+}
+.time{
+	color: black;
+	font-size: 2rem;
+}
+.price{
+	color: red;
+	font-size: 2rem;
+	padding-left: 25%;
+}
+.jiantou{
+	width: 4%;
+	padding-left: 2%;
+}
+.lastList{
+	padding-top: 4%;
+	width: 100%;
+	border-bottom: 1px solid gray;
+}
+.lastData{
+	padding-left: 6%;
+}
+.kongbai{
+	width: 100%;
+	padding-bottom: 16%;
+}
+.footer{
+	background-color: #f8fafb;
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	color: #5fc0cd;
+	width: 100%;
+	max-width: 720px;
+	line-height: 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 0;
+}
+.footerLeft{
+	display: inline-block;
+	float: left;
+	margin-left: 6%;
+	font-size: 1.5rem;
+}
+.footerRight{
+	display: inline-block;
+	float: right;
+	margin-right: 6%;
+	font-size: 1.5rem;
+}
+.footerLeft img{
+	width: 25%;
+	margin-top: 5%;
+}
+.footerRight img{
+	width: 25%;
+	margin-top: 5%;
+
+}
+.footerCenter{
+	float: left;
+	width:12%;
+	display: inline-block;
+	border-radius: 100%;
+	background-color: #5fc0cd;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.footerCenter img{
+	width: 25%;
+	padding: 35%;
+	
+}
+a .footerLeft{
+	color: #5fc0cd;
+}
+a .footerRight{
+	color: #999999;
+}

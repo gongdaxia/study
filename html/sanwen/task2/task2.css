@@ -1,0 +1,34 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #68cdd5;
+}
+#img1{
+	padding-top: 2%;
+	float: left;
+	padding-left: 5.625%;
+	}
+#img2{
+	margin-left: -5.625%;
+	padding-top: 10%;
+}
+p{
+	font-size: 2rem;
+	color: white;
+	line-height:3.4rem;
+	padding:0 15%;
+	font-family: SimHei;
+}
+#img3{
+	margin-top: 16.5%;
+	margin-left: 21.25%;
+	float: left;
+}
+#img4{
+	margin-top: 16.5%;
+	margin-left: 32.5%;
+	float: left;
+}

@@ -1,0 +1,117 @@
+*{margin:0px; padding:0px;}
+body{
+	width: 720px;
+	height: 1280px;
+}
+#header{
+	width: 100%;
+	height: 128px;
+	background-color: #5fc0cd;
+	position: fixed;
+	z-index: 3;
+	font-size:  xx-large;
+	color: white;
+}
+
+#bodier{
+	width: 100%;
+	height: 100%;
+	background-color: #eff0f4;
+	position: fixed;
+	text-align: center;
+	z-index:1;
+}
+#footer{
+	width: 100%;
+	margin-top: 26%;
+	height: 690px;
+	background-color: red;
+	z-index: 0;
+	position: fixed;
+}
+#lan1{
+	margin-top: 140px;
+	height: 100px;
+	width: 100%;
+	background-color: white;
+}
+#lan2{
+	margin-top: 1.5%;
+	height: 100px;
+	width: 100%;
+	background-color: white;
+}
+#img1{
+	float: left;
+	padding-right: 4%;
+	padding-left: 4%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	border-style:  none solid none none ;
+	border-color: #eff0f4;
+}
+#input1{
+	width: 400px;
+	height: 40px;
+	float: left;
+	padding-left: 4%;
+	padding-top: 5px;
+	margin-top: 20px;
+	border: none;
+	font-size: xx-large;
+	color: #eff0f4;
+}
+#img2{
+	float: left;
+	padding-right: 4%;
+	padding-left: 4%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	border-style:  none solid none none ;
+	border-color: #eff0f4;
+}
+#input2{
+	width: 400px;
+	height: 40px;
+	float: left;
+	padding-left: 4%;
+	padding-top: 5px;
+	margin-top: 20px;
+	border: none;
+	font-size: xx-large;
+	color: #eff0f4;
+}
+#input3{
+	width: 100%;
+	height: 120px;
+	background-color: #5fc0cd;
+	border: none;
+	font-size: xx-large;
+	color: #eff0f4;
+	margin-top: 100px;
+}
+#exit{
+	float: left;
+	padding-top: 40px;
+	padding-left: 4%;
+}
+#zhuce{
+	float: right;
+	padding-top: 40px;
+	padding-right: 4%;
+}
+#denglu{
+	padding-left: 30%;
+	padding-top: 40px;
+	float: left;
+	font-size: 50px;
+}
+#mima{
+	float: right;
+	padding-top: 30px;
+	padding-right: 4%;
+	color: #5fc0cd;
+	font-size: xx-large;
+}

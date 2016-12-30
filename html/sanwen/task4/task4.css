@@ -1,0 +1,80 @@
+html{
+	font-size: 16px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 黑体;
+}
+.header{
+	background-color: #5fc0cd;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+	
+}
+.lan{
+	border:none;
+	width: 100%;
+	font-size: 2rem;
+	color: white;
+	padding-top: 4.25rem;
+	padding-bottom: 1.5rem;
+	
+}
+.denglu{
+	font-size: 2.25rem;
+	width: 75%;
+
+}
+.content{
+	display: block;
+	padding-top: 10rem;
+	margin: 0;
+	background-color: #eff0f4;
+}
+.input1{
+	background-color: white;
+	width: 100%;
+	margin-bottom: 1rem;
+	position: relative;
+	z-index: 2;
+	
+}
+
+img{
+	max-height: 2.5rem;
+	max-width: 100%;
+	vertical-align:middle;
+	padding: 0 2.625rem;
+	
+}
+.name{
+	font-size: 2rem;
+	vertical-align:middle;
+	font-family: 黑体;
+	border-style: solid;
+	padding: 0.5rem 0;
+	margin: 1.5rem 0;
+	border-width: 0 0 0 1px;
+	border-color: gray;
+	text-indent: 2rem;
+}
+.tijiao{
+	text-align: center;
+	width: 100%;
+	margin-top: 4.5rem;
+	font-size: 2.25rem;
+	padding :2rem 0;
+	background-color: #5fc0cd;
+	border-style: none;
+	color: white;
+	font-family: 黑体;
+}
+.footer{
+	float: right;
+	color: #5fc0cd;
+	font-size: 2rem;
+	margin-right: 2rem;
+}

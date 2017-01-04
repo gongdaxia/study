@@ -1,6 +1,7 @@
 li{list-style-type: none;}
-.wrap{
-	
+*{
+	margin: 0;
+	padding: 0;
 }
 body{
 	margin: 0 auto;
@@ -161,12 +162,9 @@ a:hover{
 	display: inline-block;
 	border-radius: 100%;
 	background-color: #5fc0cd;
-	margin-left: 10%;
-	margin-top: 2%;
-	margin-bottom: 2%;
 }
 .footerCenter img{
-	width: 25%;
+	width: 15%;
 	padding: 35%;
 	
 }

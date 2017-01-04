@@ -1,62 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 html{
 	font-size: 62.5%;
-	margin:0;
-	padding: 0;
+}
+@media screen and (max-width: 400px)
+{
+	html{
+	font-size: 40%;
+	}
+}
+ul li{
+	list-style-type: none;
+}
+img{
+	max-width: 100%;
 }
 body{
+	font-size: 2rem;
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
 	margin: 0 auto;
-	padding: 0;
-	min-width: 480px;
-	font-family: arial,"Microsoft Yahei",sans-serif;
-}
-li{
-	list-style-type: none;
 }
 .container{
 	width: 100%;
 }
 .header{
+	margin: 0 auto;
 	width: 100%;
-	z-index: 100;
-	position: fixed;
+	max-width: 640px;
+	min-width: 320px;
 	background-color: #5fc0cd;
 	text-align: center;
+	padding: 1rem 0;
 	font-size: 0;
-	padding: 1% 0;
-}
-.chess{
-	width: 14.5%;
-	background-color: #55a8b3;
 	color: white;
-	font-size: 2.5rem;
-	padding: 2% 0;
 }
-.chess:hover{
+.header img{
+	width: 4%;
+	float: right;
+	margin-right: 2.5%;
+	margin-top: 4%;
+}
+.header button{
+	line-height: 4rem;
+	border-radius: 10px;
+	display: inline-block;
+	font-size: 2.8rem;
+	background-color: #55a8b3;
+}
+.header button:hover{
 	color: #5fc0cd;
 	background-color: white;
-}
-.header>img{
-	width: 5%;
-	height: auto;
-	position: absolute;
-	margin-left: 25%;
-	margin-top: 2.5%;
-}
-.kongbai{
-	width: 100%;
-	padding-top: 10%;
-}
-.taskbar{
-	width: 100%;
-	margin:0;
-	background-color: white;
-	border-bottom: 1px solid black;
 }
 .mark{
 	text-align: center;
 	background-color: white;
-	margin:1% 0;
-	padding: 0;
+	padding :6rem 0 0 0;
 }
 .check{
 	border:none;
@@ -64,79 +66,83 @@ li{
 	width: 100%;
 	padding: 5% 0;
 	font-size: 2.5rem;
-	border-right: 1px solid gray;
-}
-.content{
-	width:100%;
-}
-.secondList{
-	border-bottom: 1px solid gray;
-	width: 100%;
-	display: inline-block;
-	padding: 2.5% 0;
-}
-.gray{
-	font-size: 2rem;
-	color: gray;
-	padding: 1% 0;
-
+	border: 1px solid gray;
 }
 .data{
-	width: 5%;
-	padding-right: 2%;
+	margin: 0;
+	padding: 0;
 }
-.time{
-	color: black;
-	font-size: 2rem;
+.data img{
+	width: 3%;
+	margin-right: 3%;
+}
+.littlelist li{
+	border:none;
+	
+}
+.year{
 	margin-left: 5%;
 }
-
-.jiantou{
-	width: 4%;
-	padding-left: 2%;
+.time img{
+	width: 6%;
 	float: right;
+	padding-right: 1%;
+	padding-left: 1%;
+	display: inline-block;
+	vertical-align: middle;
 }
 .price{
 	color: red;
-	font-size: 2rem;
 	float: right;
 }
-
-.lastList{
-	padding-top: 4%;
-	width: 100%;
-	border-bottom: 1px solid gray;
-}
-.lastData{
-	width: 5%;
-	margin-left: 3.5%;
-}
-.kongbai2{
-	width: 100%;
-	padding-bottom: 11%;
+.lastdata{
+	padding-bottom: 15%;
+	padding-left: 15px;
+	
 }
 .footer{
-	position: fixed;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
 	background-color: #f8fafb;
-	bottom: 0;
+	text-align: center;
+	list-style-type: none;
 }
 .footerLeft img{
-	width: 15%;
+	width: 25%;
 	margin-top: 5%;
 }
 .footerRight img{
-	width: 15%;
+	width: 25%;
 	margin-top: 5%;
 }
 .footerCenter img{
-	width: 25%;
-	padding: 35% 0;
+	position: absolute;
+	width: 22%;
+	margin-left: -10%;
+	margin-top: -15%;
+}
+.footerLeft{
+	display: inline-block;
+	vertical-align: middle;
+}
+.footerRight{
+	display: inline-block;
+	vertical-align: middle;
 }
 .footerCenter{
-	margin-left: 30%;
+	position: relative;
+	width: 0;
 	background-color: #5fc0cd;
-	width: 30%;
-	border-radius: 100%;
+	padding: 25% ;
+	border-radius: 50%;
+	margin:1% auto;
+	display: inline-block;
+	vertical-align: middle;
+
 }
-
-
+.city{
+	width: 100%;
+	text-align: center;
+}

@@ -1,0 +1,7 @@
+*{margin: 0px; padding: 0px;}
+li{
+	padding: 300px;
+	float: left;
+	margin: 10px;
+	border: 1px solid red;
+}
